@@ -27,7 +27,8 @@ body {
 
 header {
     font-family: "Playfair Display", cursive;
-    padding: 20px;
+    width: 100%;
+    padding: 20px 0;
     text-align: center;
     background-color: hsl(16, 40%, 62%);    
 }
@@ -36,7 +37,6 @@ header {
     margin: 0 auto;
     width: 1200px;
     padding: 20px;
-    /* border: 2px solid red; */
 }
 
 .recipe-list {
@@ -124,6 +124,16 @@ header {
         /* transform: translateX(0px); */
         /* clip-path: inset(0 0 0 0); */
     }
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    background-color: var(--gris-suave);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--gris-fuerte);
+    border-radius: 5px;
 }
 
 @media screen and (max-width: 768px) {
