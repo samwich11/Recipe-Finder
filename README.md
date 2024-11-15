@@ -1,4 +1,4 @@
-# Recipe-Finder
+# Recipe Finder
 
 This web app lets you discover delicious, random recipws with just a click. Powered by the Spoonacular API, this project is a fun way to find meal inspiration and explore new ingredients and recipes.
 
